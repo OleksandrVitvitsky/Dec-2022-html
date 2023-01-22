@@ -164,7 +164,7 @@ body {
     opacity: 1;
 }
 
-a {
+span > a {
     text-decoration: none;
     color: white;
 }
@@ -249,4 +249,9 @@ hr {
 
 .card4Text > p{
     text-align: justify;
+}
+
+h3 > a{
+    color: black;
+    text-decoration: none;
 }
