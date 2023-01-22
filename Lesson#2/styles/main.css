@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.head_section{
+    background: #2367b5;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.p1{
+    font-size: 40px;
+    color: #f5f5f5;
+    margin: 0;
+
+}
+
+.body_section > .container > p {
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+}
+.body_section{
+    /*background: silver;*/
+    display: flex;
+    justify-content: space-between;
+    /*margin: 0 10px;*/
+}
+
+.container{
+    background: rgb(23, 69, 119);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: rgba(255, 8, 8, 0.59) solid 7px;
+    border-radius: 25px;
+
+}
+.footer_section{
+    background: #2367b5;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: #efc725 dashed 10px;
+}
+.arrow{
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+.arrow{
+    padding-top: 4px;
+    border: whitesmoke solid 1px;
+}
+#next {
+    /*background: silver;*/
+    display: flex;
+    justify-content: center;
+    /*margin: 0 10px;*/
+}
+.card{
+    /*background: cadetblue;*/
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    flex-direction: column;
+    border: black solid 1.5px;
+    /*text-align: center;*/
+    padding-bottom: 0;
+}
+.card_title{
+    margin-top: 30px;
+}
+.card_text{
+    text-align: justify;
+    margin: 0 10px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.button {
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    margin: 30px;
+    background: #ee6123;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.button p {
+    margin: 0;
+    position: relative;
+    transition: all ease 1s;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 0;
+    background: #205081;
+    overflow: hidden;
+    transition: all ease 2s;
+    border-radius: 5px;
+
+}
+
+.shadow span {
+    opacity: 0;
+    transition: all ease 3s;
+}
+
+.button:hover .shadow {
+    width: 100%;
+}
+
+.button:hover p {
+    opacity: 0;
+}
+
+.button:hover .shadow span {
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    border-top: 3px black solid;
+}

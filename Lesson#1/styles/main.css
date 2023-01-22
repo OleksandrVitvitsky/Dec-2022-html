@@ -1,0 +1,29 @@
+
+h1{
+    background: #efc725;
+    color: #023312;
+    text-align: center;
+}
+
+h2{
+    background: cornsilk;
+    color: #600404;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 300px;
+
+}
+
+p{
+    background: #d0cfcf;
+    color: black;
+}
+ul{
+    background: papayawhip;
+    color: darkcyan;
+}
