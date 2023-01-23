@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.commonCard{
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    padding-bottom: 20px;
+
+}
+
+.cardImg {
+    height: 90px;
+    width: 90px;
+    border: 1.5px solid black;
+    border-radius: 55%;
+    top: 35px;
+    position: relative;
+    /* background: silver; */
+    background-size: cover;
+    background-position: center;
+}
+
+.cardImg1BG{
+    background-image: url(../images/UkrainkaL.png);
+
+}
+
+.cardImg2BG {
+    background-image: url(../images/Shev.png);
+
+}
+
+.cardImg3BG {
+    background-image: url(../images/Tychyna.png);
+}
+.cardBody {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    border: 1.5px solid black ;
+    box-shadow: 15px 15px 15px silver;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+.card_text {
+    text-align: justify;
+    margin: 0 10px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.button {
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    margin-bottom: 10px;
+    background: #0b7886;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    /*text-transform: uppercase;*/
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.button p {
+    margin: 0;
+    position: relative;
+    transition: all ease 1s;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 0;
+    background: #205081;
+    overflow: hidden;
+    transition: all ease 2s;
+    border-radius: 5px;
+
+}
+
+.shadow span {
+    opacity: 0;
+    transition: all ease 3s;
+}
+
+.button:hover .shadow {
+    width: 100%;
+}
+
+.button:hover p {
+    opacity: 0;
+}
+
+.button:hover .shadow span {
+    opacity: 1;
+}
+
+span > a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    border-top: 3px black solid;
+}
