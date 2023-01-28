@@ -21,7 +21,7 @@ body {
     width: 100%;
     background: #0a0a69;
     position: absolute;
-display: flex;
+    display: flex;
     align-items: flex-end;
     justify-content: center;
     column-gap: 25px;
