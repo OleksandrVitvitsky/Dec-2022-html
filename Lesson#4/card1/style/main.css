@@ -69,9 +69,6 @@ hr {
 }
 
 .card2-box-bottom {
-    display: flex;
-    /*background: brown;*/
-    width: 80%;
     height: 500px;
 }
 
@@ -128,17 +125,19 @@ hr {
         width: 100%;
         height: 75%;
     }
-.card2-big-box-B{
-    width: 100%;
-    height: 100%;
-}
+
+    .card2-big-box-B {
+        width: 100%;
+        height: 100%;
+    }
+
     .card1-small-box {
         width: 100%;
         height: 50%;
     }
 
     .card2-big-box, .card2-box-bottom-CDE,
-    .card2-small-box{
+    .card2-small-box {
         width: 100%;
     }
 }
