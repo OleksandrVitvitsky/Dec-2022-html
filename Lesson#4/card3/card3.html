@@ -5,39 +5,177 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Card #3</title>
-    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+    <style>
+        .general {
+            width: 100vw;
+            height: 100vh;
+            /*background: silver;*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 10px;
+        }
 
+        .container-1 {
+            width: 700px;
+            height: 50px;
+            display: flex;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            column-gap: 10px;
+            /*background: cornflowerblue;*/
+        }
+
+        .box-1 {
+            width: 15%;
+            height: 100%;
+            background: blue;
+        }
+
+        .box-2 {
+            width: 85%;
+            height: 100%;
+            background: green;
+        }
+
+        .container-2 {
+            width: 700px;
+            height: 500px;
+            /*background: yellow;*/
+        }
+
+        .containerFor-3 {
+            width: 15%;
+            height: 390px;
+            margin-bottom: 10px;
+
+        }
+
+        .box-3 {
+            width: 100%;
+            height: 100%;
+            background: saddlebrown;
+        }
+
+        .containerFor-3-4-5-6-7 {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            column-gap: 10px;
+        }
+
+        .containerFor-4-5-6-7 {
+            width: 85%;
+            height: 100%;
+            /*background: #000;*/
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        .containerFor-4-5 {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            column-gap: 10px;
+        }
+
+        .box-4 {
+            width: 80%;
+            height: 100%;
+            background: brown;
+        }
+
+        .box-5 {
+            width: 20%;
+            height: 100%;
+            background: chartreuse;
+        }
+
+        .containerFor-6-7 {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            column-gap: 10px;
+        }
+
+        .box-6 {
+            width: 80%;
+            height: 100%;
+            background: aqua;
+        }
+
+        .box-7 {
+            width: 20%;
+            height: 100%;
+            background: #343a40;
+        }
+
+        .containerFor-8-9 {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            margin-top: 10px;
+
+        }
+
+        .box-8 {
+            width: 100%;
+            height: 50%;
+            background: bisque;
+        }
+
+        .box-9 {
+            width: 100%;
+            height: 50%;
+            background: slategray;
+        }
+        .footer{
+            width: 700px;
+            height: 100px;
+            background: paleturquoise;
+            /*border: 1px solid black;*/
+
+        }
+        .txt-alg{
+            text-align: center;
+
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-
 <div class="general">
-    <div class="body-section">
-        <div class="container1">
-            <div class="box-1"></div>
-            <div class="box-3"></div>
-            <div class="box-8-9">
-                <div class="box-8"></div>
-                <div class="box-9"></div>
+    <div class="container-1">
+        <div class="box-1 txt-alg">1</div>
+        <div class="box-2 txt-alg">2</div>
+    </div>
+    <div class="container-2">
+        <div class="containerFor-3-4-5-6-7">
+            <div class="containerFor-3">
+                <div class="box-3 txt-alg">3</div>
+                <div class="containerFor-8-9">
+                    <div class="box-8 txt-alg">8</div>
+                    <div class="box-9 txt-alg">9</div>
+                </div>
+            </div>
+            <div class="containerFor-4-5-6-7">
+                <div class="containerFor-4-5">
+                    <div class="box-4 txt-alg">4</div>
+                    <div class="box-5 txt-alg">5</div>
+                </div>
+                <div class="containerFor-6-7">
+                    <div class="box-6 txt-alg">6</div>
+                    <div class="box-7 txt-alg">7</div>
+                </div>
             </div>
         </div>
-        <div class="container2">
-            <div class="box-2"></div>
-            <div class="box-4-5">
-                <div class="box-4"></div>
-                <div class="box-5"></div>
-            </div>
-            <div class="box-6-7">
-                <div class="box-6"></div>
-                <div class="box-7"></div>
-            </div>
-        </div>
-
     </div>
-    <div class="bottom-section">
-
-    </div>
-
+    <div class="footer txt-alg">10</div>
 </div>
 </body>
 </html>
