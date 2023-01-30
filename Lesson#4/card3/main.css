@@ -1,0 +1,141 @@
+body {
+    box-sizing: border-box;
+    min-width: 600px;
+}
+
+.brdr {
+    border: 1px solid black;
+    /*border-radius: 15%;*/
+}
+
+.bx_shadow-bg_size {
+    box-shadow: 15px 15px 15px silver;
+    background-size: cover;
+    background-position: center;
+}
+.general{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.body-section {
+    /*background: silver;*/
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.container1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    /*border: 2px solid blue;*/
+    /*background: linear-gradient(125deg, green, yellow);*/
+}
+
+.container2 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    /*border: 2px solid blue;*/
+    /*background: linear-gradient(125deg, red, blue);*/
+}
+
+.box-1 {
+    width: 100%;
+    height: 20%;
+    background: red;
+}
+
+.box-3 {
+    height: 40%;
+    width: 100%;
+    background: blue;
+}
+
+.box-8-9 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    row-gap: 10px;
+}
+
+.box-8 {
+    width: 100%;
+    height: 50%;
+    background: black;
+}
+
+.box-9 {
+    width: 100%;
+    height: 50%;
+    background: yellow;
+}
+
+.bottom-section {
+    margin-top: 10px;
+    width: 70%;
+    height: 15%;
+    background: blueviolet;
+}
+
+.box-2 {
+    width: 100%;
+    height: 20%;
+    background: salmon;
+}
+
+.box-4-5 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.box-4 {
+    background: powderblue;
+    width: 80%;
+    height: 100%;
+}
+
+.box-5 {
+    background: saddlebrown;
+    width: 20%;
+    height: 100%;
+}
+
+.box-6-7 {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.box-6 {
+    background: burlywood;
+    width: 80%;
+    height: 100%;
+}
+
+.box-7 {
+    background: aqua;
+    width: 20%;
+    height: 100%;
+}
