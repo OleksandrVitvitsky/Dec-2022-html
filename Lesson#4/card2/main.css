@@ -3,9 +3,6 @@ body {
     min-width: 500px;
 }
 
-hr {
-    border-top: 4px #600404 solid;
-}
 
 .brdr {
     border: 1px solid black;
