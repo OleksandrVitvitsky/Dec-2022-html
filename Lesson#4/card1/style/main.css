@@ -110,7 +110,7 @@ hr {
     background-position: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and(max-width: 767px) {
     .card1-box-top, .card2-box-top,
     .card2-small-box{
         height: 25vh;
